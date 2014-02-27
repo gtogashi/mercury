@@ -14,7 +14,7 @@ module Mercury
         end
 
         def copy_controller
-          template 'pages_controller.rb.erb', 'app/controllers/mercury/pages_controller.rb'
+          template 'pages_controller.rb', 'app/controllers/mercury/pages_controller.rb'
         end
 
         def add_routes
